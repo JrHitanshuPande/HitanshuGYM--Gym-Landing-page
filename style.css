@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 10rem;
+    font-size: 3.6rem;
+    padding: 1rem;
+    color:rgb(255, 166, 0);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list{
+    display: flex;
+    font-size: 3rem;
+    list-style: none; 
+    margin-right: 10rem;
+}
+
+.list li {
+    padding: 1rem 3rem;
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Section about  */
+
+
+.About{
+    display: flex;
+    width: 100%; 
+    /* border: 2px solid red; */
+    justify-content: space-evenly;
+    height: 70rem;
+}
+.leftside 
+{
+    width: 40%;
+
+    display: flex;
+}
+.auto { 
+ /* for making img + text at center  */
+    margin: auto;
+}
+.leftside img 
+{
+    width: 70%;
+    display: block;
+    margin: auto;
+    /* margin-top: 10rem; */
+}
+.leftside h1
+{
+font-size: 3rem;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+ font-size: 2rem;
+ margin-top: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+}
+.rightside{
+    width: 40%;
+    display: flex;
+}
+
+.rightside img 
+{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+
+/* section services  */
+.services
+{
+    margin-top: 2rem;
+}
+.services h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.services p {
+    font-size: 2.5rem;
+    text-align: center;
+    color: red;
+}
+
+.s-grid
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+@media only screen and (max-width: 1000px) {
+   
+    html{
+        font-size: 42%;
+    }
+  }
