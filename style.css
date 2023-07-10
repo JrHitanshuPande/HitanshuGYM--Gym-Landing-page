@@ -182,8 +182,62 @@ margin: 1rem 0rem 1rem 0rem ;
 }
 
 /* Section why us  */
+.w-grid
+{
+    margin-top: 2rem;
+}
+.w-grid h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+}
+.wm-grid
+{
+width: 100%;
+height: 60vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin-top: 2rem;
+/* border: 2px solid red; */
+/* background-color: black; */
+}
 
+.grid-w
+{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: auto;
+    /* margin: 2rem 0rem 2rem 0rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.grid-wi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-wi img {
+    /* width: 40%;
+    height: 60%; */
+}
+.grid-wi h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-w p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 @media only screen and (max-width: 1000px) {
    
     html{
