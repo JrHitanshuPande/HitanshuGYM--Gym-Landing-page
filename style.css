@@ -180,7 +180,7 @@ padding: 5rem;
 { 
     color: white;
     margin-top: 1rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -240,8 +240,53 @@ justify-content: space-evenly;
 .grid-w p
 {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section contact us  */
+
+.contactus{
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+}
+.contactin
+{
+background-color: rgb(219, 219, 219);
+}
+.contactin h3{
+    color: red;
+}
+
+.contactus h2 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+}
+.contactus h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.contact 
+{
+    margin-top: 2rem;
+}
+
+.no 
+{
+    margin-top: 1rem;
+}
+
+footer 
+{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 @media only screen and (max-width: 1000px) {
    
