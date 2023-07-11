@@ -267,6 +267,7 @@ background-color: rgb(219, 219, 219);
     text-align: center;
     font-weight: 500;
 }
+
 .contactus h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
@@ -274,6 +275,14 @@ background-color: rgb(219, 219, 219);
     font-weight: 500;
     margin-top: 2rem;
 }
+@keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
+  .contactus h3 {
+    animation: blink 1s step-start 0s infinite;
+  }
 .contactus h4 
 {
     text-align: center;
