@@ -41,7 +41,10 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.iconbar 
+{
+    display: none;
+}
 /* Section about  */
 
 
@@ -227,14 +230,15 @@ justify-content: space-evenly;
 .grid-wi
 {
     display: flex;
+    /* height: auto; */
     flex-direction: column;
     align-items: center;
 }
 
-.grid-wi img {
-    /* width: 40%;
-    height: 60%; */
-}
+/* .grid-wi img {
+    width: 40%;
+    height: 60%;
+} */
 .grid-wi h2{
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -333,16 +337,162 @@ footer
     }
   }
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 800px) {
    
     html{
         font-size: 35%;
     }
   }
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 700px) {
    
     html{
         font-size: 25%;
     }
   }
+/* Mobile Screen  */
+  @media only screen and (max-width: 500px) {
+
+    html 
+    {
+        font-size: 55%;
+    }
+.logo 
+{
+    margin-left: 2rem;
+}
+.iconbar 
+{
+    display: block;
+    font-size: 3rem;
+    padding: 1.3rem;
+}
+.list
+{
+    display: none;
+    display: block;
+    background-color: black;
+    opacity: 80%;
+    margin-top: 6.2rem;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    right: 100%;
+    transition: right 0.5s ease-in-out;
+}
+.list li
+{
+    margin: 3rem;
+}
+
+.list li a 
+{
+    color: white;
+}
+.list.active {
+    /* display: block; */
+    right: 34%;
+    
+    
+}
+    .About{
+        flex-direction: column-reverse;
+        margin: 0rem;
+    }
+
+    .rightside
+    {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    }
+
+    .rightside img 
+    {
+        width: 100%;
+
+    }
+
+    .leftside 
+    {
+        width: 100%;
+        /* border: 2px solid red;    */
+    }
+
+    .leftside img 
+    {
+        display: none;
+    }
+
+
+
+    /* Service Grid  */
+    .grid 
+    {
+        width: 47%;
+        height: 30%;
+    }
+    .grid h2 
+    {
+    font-size: 2rem;
+    }
+
+    /* Feature Grid  */
+    .grid-f{
+        padding: 0%;
+    }
+    .grid-f h2 
+    {
+        text-align: left;
+    }
+  } 
+
+  /* Why us  */
+
+.grid-w
+{
+    padding: 0%;
+    align-items: normal;
+    justify-content: start;
+    align-items: none;
+}
+
+.grid-wi
+{
+    /* border: 2px solid red; */
+    width: 100%;
+
+}
+
+@media only screen and (max-width:400px)
+{
+html
+{
+    font-size: 50%;
+}
+}
+
+
+@media only screen and (max-width:334px)
+{
+html
+{
+    font-size: 45%;
+}
+}
+
+@media only screen and (max-width:304px)
+{
+html
+{
+    font-size: 40%;
+}
+}
+
+@media only screen and (max-width:270px)
+{
+html
+{
+    font-size: 35%;
+}
+}
