@@ -15,17 +15,18 @@
     <header class="header">
         <nav class="nav">
             <div class="logo">HitanshuGYM</div>
-            <div class="iconbar" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></div>
+            <div class="iconbar" id="iconbarv" onclick="toggleNav()"><i class="fa-solid fa-bars"></i></div>
+            <div class="iconbarx" onclick="toggleicon()"><i class="fa-solid fa-xmark"></i></div>
             <ul class="list" id="nav-list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Why us?</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#whyus">Why us?</a></li>
+                <li><a href="#contact">Contact us</a></li>
             </ul>
         </nav>
     </header>
-    <section class="About">
+    <section class="About" id="about">
         <div class="leftside">
             <div class="auto">
                 <div class=" text-center">
@@ -43,7 +44,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="service">
         <h2>Services</h2>
         <p>Take care of your body. It's the only place you have to live.</p>
         <div class="s-grid">
@@ -73,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="Feature">
+    <section class="Feature" id="feature">
         <h2>Feature</h2>
         <div class="f-grid">
             <div class="grid-f">
@@ -109,7 +110,7 @@
                 <p>Our facility offers a free Wi-Fi zone, allowing you to stay connected and make the most of your time at the gym.</p>
             </div>
         </section>
-        <section class="w-grid">
+        <section class="w-grid" id="whyus">
             <h2>Why us?</h2>
         <div class="wm-grid">
         <div class="grid-w">
@@ -144,7 +145,7 @@
         </div>
         </section>
         <section class="contactus">
-            <h2>Contact Us</h2>
+            <h2 id="contact">Contact Us</h2>
             <div class="contactin">
                 <h3>Book 3 day trail</h3>
                 <div class="contact">
